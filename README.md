@@ -5,7 +5,7 @@
 Curated by [Chronicle](https://epoch.founden.co/?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026), an interactive, sourced timeline of AI history. Every row links to a full dossier with the evidence behind it.
 
 - **Current version and downloads:** [epoch.founden.co/data](https://epoch.founden.co/data?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) (CSV and JSON, always the live archive)
-- **This snapshot:** 2026-10-02, 78 events, 1943 to 2026
+- **This snapshot:** 2026-10-12, 78 events, 1943 to 2026
 - **License:** CC BY 4.0 for the table (scope below)
 
 ## Fields

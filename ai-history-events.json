@@ -750,7 +750,7 @@
       "title": "Move 37. A new kind of intuition.",
       "organization": "Google DeepMind",
       "category": "Benchmarks",
-      "summary": "AlphaGo defeats Lee Sedol 4–1 in their five-game Go match.",
+      "summary": "AlphaGo defeats Lee Sedol 4-1 in their five-game Go match.",
       "impact": "The match demonstrates the power of learning combined with search.",
       "significance_score": 83,
       "tier": "Defining",
