@@ -1,11 +1,11 @@
 # AI History Timeline
 
-78 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
+103 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
 
 Curated by [Chronicle](https://epoch.founden.co/?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026), an interactive, sourced timeline of AI history. Every row links to a full dossier with the evidence behind it.
 
 - **Current version and downloads:** [epoch.founden.co/data](https://epoch.founden.co/data?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) (CSV and JSON, always the live archive)
-- **This snapshot:** 2026-10-12, 78 events, 1943 to 2026
+- **This snapshot:** 2026-10-21, 103 events, 1943 to 2026
 - **License:** CC BY 4.0 for the table (scope below)
 
 ## Fields
@@ -49,18 +49,30 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 |---|---|---|---|---|
 | 1943 | [McCulloch-Pitts neuron](https://epoch.founden.co/events/mcculloch-pitts?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | McCulloch & Pitts | Research | 86 |
 | 1950 | [Turing test](https://epoch.founden.co/events/the-question-that-started-it-all?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Alan Turing | Research | 95 |
+| 1956-06-15 | [Logic Theorist](https://epoch.founden.co/events/logic-theorist?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | RAND Corporation & Carnegie Tech | Research | 80 |
 | 1956 | [Dartmouth workshop](https://epoch.founden.co/events/artificial-intelligence-gets-a-name?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Dartmouth | Research | 94 |
 | 1958 | [Perceptron](https://epoch.founden.co/events/the-perceptron?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Frank Rosenblatt | Research | 78 |
 | 1959 | [Arthur Samuel's checkers program](https://epoch.founden.co/events/samuel-checkers?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Arthur Samuel · IBM | Research | 80 |
+| 1961 | [Unimate](https://epoch.founden.co/events/unimate?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Unimation · General Motors | Robotics | 71 |
 | 1965 | [DENDRAL expert system](https://epoch.founden.co/events/dendral?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Stanford · DENDRAL | Research | 71 |
 | 1966 | [ELIZA chatbot](https://epoch.founden.co/events/a-conversation-with-eliza?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | MIT | Culture | 67 |
 | 1966 | [Shakey the robot](https://epoch.founden.co/events/shakey-enters-the-world?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | SRI | Robotics | 67 |
+| 1969 | [Perceptrons (Minsky and Papert)](https://epoch.founden.co/events/perceptrons-book?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Minsky & Papert · MIT | Research | 58 |
+| 1971 | [SHRDLU](https://epoch.founden.co/events/shrdlu?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | MIT AI Lab | Research | 64 |
 | 1973 | [First AI winter](https://epoch.founden.co/events/the-first-ai-winter?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Research funding | Culture | 53 |
+| 1980 | [XCON (R1) expert system](https://epoch.founden.co/events/xcon?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Digital Equipment Corporation · Carnegie Mellon | Launches | 57 |
 | 1982 | [Hopfield network](https://epoch.founden.co/events/hopfield-networks?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | John Hopfield | Research | 81 |
+| 1982 | [Fifth Generation Computer Systems project](https://epoch.founden.co/events/fifth-generation-computer-systems?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Japan's MITI · ICOT | Policy | 60 |
 | 1986 | [Backpropagation](https://epoch.founden.co/events/learning-by-backpropagation?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Rumelhart, Hinton & Williams | Research | 93 |
+| 1987 | [Second AI winter](https://epoch.founden.co/events/second-ai-winter?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | AI industry and DARPA | Culture | 54 |
+| 1988 | [Bayesian networks](https://epoch.founden.co/events/bayesian-networks?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | UCLA | Research | 86 |
+| 1989 | [LeNet (convolutional networks)](https://epoch.founden.co/events/lenet?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | LeCun and collaborators · Bell Labs | Research | 80 |
+| 1992 | [TD-Gammon](https://epoch.founden.co/events/td-gammon?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | IBM Research | Research | 71 |
+| 1995 | [Support vector machines](https://epoch.founden.co/events/support-vector-networks?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | AT&T Bell Labs | Research | 83 |
 | 1997-05-11 | [Deep Blue vs Kasparov](https://epoch.founden.co/events/deep-blue-beats-kasparov?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | IBM | Benchmarks | 62 |
 | 1997 | [LSTM](https://epoch.founden.co/events/lstm?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Hochreiter & Schmidhuber | Research | 89 |
 | 2003 | [Neural probabilistic language model](https://epoch.founden.co/events/neural-language-model?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Bengio, Ducharme, Vincent & Jauvin | Research | 80 |
+| 2005-10-08 | [DARPA Grand Challenge](https://epoch.founden.co/events/darpa-grand-challenge?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | DARPA · Stanford Racing Team | Robotics | 65 |
 | 2006 | [Deep belief networks](https://epoch.founden.co/events/the-deep-learning-revival?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Geoffrey Hinton & collaborators | Research | 75 |
 | 2007 | [NVIDIA CUDA](https://epoch.founden.co/events/cuda?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | NVIDIA · CUDA | Launches | 91 |
 | 2009 | [ImageNet](https://epoch.founden.co/events/imagenet-changes-the-dataset?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Princeton & Stanford | Research | 92 |
@@ -70,19 +82,24 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2013-12-19 | [Deep Q-network](https://epoch.founden.co/events/deep-q-learning?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Mnih and collaborators · DeepMind | Research | 80 |
 | 2013-12-20 | [Variational autoencoder](https://epoch.founden.co/events/variational-autoencoders?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Kingma & Welling | Research | 81 |
 | 2014-06-10 | [Generative adversarial networks](https://epoch.founden.co/events/machines-learn-to-imagine?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Ian Goodfellow & collaborators | Research | 83 |
+| 2014-09-01 | [Attention mechanism (Bahdanau, Cho and Bengio)](https://epoch.founden.co/events/attention-mechanism?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Bahdanau, Cho & Bengio · Université de Montréal | Research | 83 |
 | 2014-09-10 | [Sequence-to-sequence learning](https://epoch.founden.co/events/sequence-to-sequence?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Sutskever, Vinyals & Le | Research | 80 |
 | 2014-12-22 | [Adam optimizer](https://epoch.founden.co/events/adam?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Kingma & Ba | Research | 84 |
 | 2015-12-10 | [ResNet](https://epoch.founden.co/events/resnet?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | He and collaborators · Microsoft | Research | 93 |
 | 2015-12-11 | [OpenAI](https://epoch.founden.co/events/openai-is-founded?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Culture | 62 |
 | 2016-03-15 | [AlphaGo vs Lee Sedol](https://epoch.founden.co/events/move-37-a-new-kind-of-intuition?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Benchmarks | 83 |
+| 2016-09-27 | [Google Neural Machine Translation](https://epoch.founden.co/events/google-neural-machine-translation?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google | Launches | 69 |
 | 2017-06-12 | [Transformer](https://epoch.founden.co/events/attention-is-all-you-need?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google researchers | Research | 98 |
+| 2017-06-12 | [Deep reinforcement learning from human preferences (RLHF)](https://epoch.founden.co/events/rlhf?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Christiano and collaborators · OpenAI & DeepMind | Research | 83 |
 | 2017-12-05 | [AlphaZero](https://epoch.founden.co/events/alphazero?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Silver and collaborators · DeepMind | Research | 75 |
 | 2018-06-11 | [GPT-1](https://epoch.founden.co/events/the-first-gpt?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 78 |
 | 2018-10-11 | [BERT](https://epoch.founden.co/events/bert-reads-both-ways?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google | Research | 86 |
 | 2019-02-14 | [GPT-2](https://epoch.founden.co/events/gpt-2-and-the-release-debate?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 72 |
 | 2019-10-23 | [T5](https://epoch.founden.co/events/t5?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Raffel and collaborators · Google | Research | 75 |
+| 2020-01-23 | [Scaling laws for neural language models](https://epoch.founden.co/events/scaling-laws?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Kaplan and collaborators · OpenAI | Research | 82 |
 | 2020-05-28 | [GPT-3](https://epoch.founden.co/events/gpt-3-scales-up?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 86 |
 | 2020-06-19 | [DDPM](https://epoch.founden.co/events/ddpm?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Ho, Jain & Abbeel | Research | 83 |
+| 2020-10-08 | [Waymo fully driverless public service](https://epoch.founden.co/events/waymo-driverless-service?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Waymo | Robotics | 64 |
 | 2020-10-22 | [Vision Transformer](https://epoch.founden.co/events/vision-transformer?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Dosovitskiy and collaborators · Google | Research | 83 |
 | 2020-11-30 | [AlphaFold 2](https://epoch.founden.co/events/a-50-year-biology-problem?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Research | 95 |
 | 2021-01-05 | [DALL·E](https://epoch.founden.co/events/dall-e-language-becomes-image?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 72 |
@@ -118,13 +135,21 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2025-03-25 | [Gemini 2.5](https://epoch.founden.co/events/gemini-2-5?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Models | 64 |
 | 2025-04-29 | [Qwen3](https://epoch.founden.co/events/qwen3?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Qwen team · Alibaba | Open source | 70 |
 | 2025-05-22 | [Claude 4](https://epoch.founden.co/events/claude-4-gets-to-work?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 58 |
+| 2025-06-23 | [Bartz v. Anthropic](https://epoch.founden.co/events/bartz-v-anthropic?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | U.S. District Court, N.D. California | Policy | 64 |
+| 2025-07-21 | [AI gold at IMO 2025](https://epoch.founden.co/events/imo-gold-medal?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind · OpenAI | Benchmarks | 59 |
 | 2025-08-05 | [gpt-oss](https://epoch.founden.co/events/gpt-oss?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI · gpt-oss | Open source | 70 |
 | 2025-08-07 | [GPT-5](https://epoch.founden.co/events/gpt-5-arrives?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 70 |
-| 2025-11-18 | [Gemini 3](https://epoch.founden.co/events/gemini-3?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google | Models | 70 |
+| 2025-11-18 | [Gemini 3](https://epoch.founden.co/events/gemini-3?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Models | 70 |
 | 2026-02-05 | [Claude Opus 4.6](https://epoch.founden.co/events/claude-opus-4-6?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 47 |
+| 2026-02-27 | [Pentagon designates Anthropic a supply-chain risk](https://epoch.founden.co/events/pentagon-anthropic-supply-chain-risk?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | U.S. Department of Defense · Anthropic | Policy | 59 |
+| 2026-04-07 | [Claude Mythos Preview](https://epoch.founden.co/events/claude-mythos-preview?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 56 |
+| 2026-05-20 | [Erdős unit distance disproof](https://epoch.founden.co/events/unit-distance-conjecture-disproved?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 62 |
 | 2026-06-30 | [Claude Sonnet 5](https://epoch.founden.co/events/claude-sonnet-5?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 47 |
+| 2026-07-21 | [OpenAI Hugging Face incident](https://epoch.founden.co/events/hugging-face-breach?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI · Hugging Face | Policy | 53 |
 | 2026-08-02 | [AI Act enforcement](https://epoch.founden.co/events/ai-act-enforcement-expands?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | European Union | Policy | 61 |
 | 2026-09-03 | [GPT-6 Astra](https://epoch.founden.co/events/gpt-6-astra?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 45 |
+| 2026-09-08 | [OpenAI's Navier-Stokes blow-up claim](https://epoch.founden.co/events/navier-stokes-claim?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 62 |
+| 2026-10-06 | [OpenAI's quasi-Riemann hypothesis proof](https://epoch.founden.co/events/quasi-riemann-hypothesis?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 64 |
 
 ## How events are chosen and scored
 
@@ -142,13 +167,15 @@ The table (the columns listed above) is licensed [Creative Commons Attribution 4
 
 ## Citation
 
-Chronicle. (2026). AI history dataset: 78 scored and sourced events [Data set]. https://epoch.founden.co/data
+Chronicle. (2026). AI history dataset: 103 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
 
 ```bibtex
 @misc{chronicle_ai_history_2026,
   author = {{Chronicle}},
-  title = {AI history dataset: 78 scored and sourced events},
+  title = {AI history dataset: 103 scored and sourced events},
   year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.23395380},
   howpublished = {\url{https://epoch.founden.co/data}},
   note = {CC BY 4.0}
 }
