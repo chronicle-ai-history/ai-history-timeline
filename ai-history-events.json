@@ -1,6 +1,6 @@
 {
   "name": "Chronicle AI history dataset",
-  "description": "103 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
+  "description": "106 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
   "homepage": "https://epoch.founden.co/data",
   "license": {
     "id": "CC-BY-4.0",
@@ -118,7 +118,7 @@
       "description": "The event's full, cited dossier."
     }
   ],
-  "count": 103,
+  "count": 106,
   "events": [
     {
       "id": "mcculloch-pitts",
@@ -140,7 +140,7 @@
       "rating_access": 3,
       "rating_institutions": 3,
       "primary_source_url": "https://doi.org/10.1007/BF02478259",
-      "source_count": 13,
+      "source_count": 12,
       "dossier_url": "https://epoch.founden.co/events/mcculloch-pitts"
     },
     {
@@ -236,6 +236,29 @@
       "dossier_url": "https://epoch.founden.co/events/the-perceptron"
     },
     {
+      "id": "lisp",
+      "date": "1958",
+      "year": 1958,
+      "date_precision": "year",
+      "name": "LISP",
+      "title": "Programs become data",
+      "organization": "John McCarthy, MIT",
+      "category": "Research",
+      "summary": "McCarthy begins LISP at MIT: recursive functions over lists, with programs written as the same lists they process.",
+      "impact": "It became the main language of US AI research for three decades and the basis of the 1980s Lisp machine industry.",
+      "significance_score": 86,
+      "tier": "Defining",
+      "confidence": "Established",
+      "rating_novelty": 4,
+      "rating_influence": 5,
+      "rating_reach": 4,
+      "rating_access": 5,
+      "rating_institutions": 3,
+      "primary_source_url": "https://doi.org/10.1145/367177.367199",
+      "source_count": 19,
+      "dossier_url": "https://epoch.founden.co/events/lisp"
+    },
+    {
       "id": "samuel-checkers",
       "date": "1959",
       "year": 1959,
@@ -288,7 +311,7 @@
       "date_precision": "year",
       "name": "DENDRAL expert system",
       "title": "Expertise becomes software",
-      "organization": "Stanford · DENDRAL",
+      "organization": "Stanford University",
       "category": "Research",
       "summary": "DENDRAL proposes and ranks organic molecule structures from a mass spectrum using encoded chemical rules.",
       "impact": "Its lesson that knowledge beats general method spawned MYCIN and the 1980s expert systems industry.",
@@ -301,7 +324,7 @@
       "rating_access": 3,
       "rating_institutions": 3,
       "primary_source_url": "https://softwarepreservation.computerhistory.org/AI/DENDRAL/",
-      "source_count": 12,
+      "source_count": 11,
       "dossier_url": "https://epoch.founden.co/events/dendral"
     },
     {
@@ -420,6 +443,29 @@
       "dossier_url": "https://epoch.founden.co/events/the-first-ai-winter"
     },
     {
+      "id": "mycin",
+      "date": "1976",
+      "year": 1976,
+      "date_precision": "year",
+      "name": "MYCIN expert system",
+      "title": "A consultant built from rules",
+      "organization": "Stanford University",
+      "category": "Research",
+      "summary": "Shortliffe's MYCIN chains 200 if-then rules backward to pick antibiotics and can explain why it asks each question.",
+      "impact": "Its engine, stripped of medicine, became EMYCIN for other fields, but MYCIN itself never reached a hospital ward.",
+      "significance_score": 71,
+      "tier": "Major",
+      "confidence": "Established",
+      "rating_novelty": 4,
+      "rating_influence": 4,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 3,
+      "primary_source_url": "https://people.dbmi.columbia.edu/~ehs7001/Shortliffe-1976/MYCIN%20thesis%20Book.htm",
+      "source_count": 20,
+      "dossier_url": "https://epoch.founden.co/events/mycin"
+    },
+    {
       "id": "xcon",
       "date": "1980",
       "year": 1980,
@@ -441,6 +487,29 @@
       "primary_source_url": "https://cdn.aaai.org/AAAI/1980/AAAI80-076.pdf",
       "source_count": 13,
       "dossier_url": "https://epoch.founden.co/events/xcon"
+    },
+    {
+      "id": "neocognitron",
+      "date": "1980",
+      "year": 1980,
+      "date_precision": "year",
+      "name": "Neocognitron",
+      "title": "Shift invariance built into the wiring",
+      "organization": "Kunihiko Fukushima, NHK",
+      "category": "Research",
+      "summary": "Fukushima's NHK network alternates learned S-cell and fixed C-cell layers to recognize patterns wherever they sit.",
+      "impact": "Its shared-weight and pooling layers become the layout that LeNet and AlexNet later train by backpropagation.",
+      "significance_score": 73,
+      "tier": "Major",
+      "confidence": "Established",
+      "rating_novelty": 5,
+      "rating_influence": 4,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 1,
+      "primary_source_url": "https://doi.org/10.1007/BF00344251",
+      "source_count": 14,
+      "dossier_url": "https://epoch.founden.co/events/neocognitron"
     },
     {
       "id": "hopfield-networks",
@@ -581,6 +650,29 @@
       "dossier_url": "https://epoch.founden.co/events/lenet"
     },
     {
+      "id": "q-learning",
+      "date": "1989",
+      "year": 1989,
+      "date_precision": "year",
+      "name": "Q-learning",
+      "title": "Learning what an action is worth",
+      "organization": "University of Cambridge",
+      "category": "Research",
+      "summary": "Christopher Watkins' Cambridge thesis defines Q-learning, which learns optimal action values without a model.",
+      "impact": "Off-policy action values become the core of value-based RL, from Q-routing to DQN playing Atari from pixels.",
+      "significance_score": 80,
+      "tier": "Defining",
+      "confidence": "Established",
+      "rating_novelty": 4,
+      "rating_influence": 5,
+      "rating_reach": 4,
+      "rating_access": 3,
+      "rating_institutions": 3,
+      "primary_source_url": "https://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf",
+      "source_count": 17,
+      "dossier_url": "https://epoch.founden.co/events/q-learning"
+    },
+    {
       "id": "td-gammon",
       "date": "1992",
       "year": 1992,
@@ -646,7 +738,7 @@
       "rating_access": 1,
       "rating_institutions": 3,
       "primary_source_url": "https://www.ibm.com/history/deep-blue",
-      "source_count": 10,
+      "source_count": 9,
       "dossier_url": "https://epoch.founden.co/events/deep-blue-beats-kasparov"
     },
     {
@@ -671,6 +763,29 @@
       "primary_source_url": "https://www.bioinf.jku.at/publications/older/2604.pdf",
       "source_count": 14,
       "dossier_url": "https://epoch.founden.co/events/lstm"
+    },
+    {
+      "id": "random-forests",
+      "date": "2001",
+      "year": 2001,
+      "date_precision": "year",
+      "name": "Random forests",
+      "title": "Strength from uncorrelated trees",
+      "organization": "Leo Breiman, UC Berkeley",
+      "category": "Research",
+      "summary": "Breiman grows unpruned trees on bootstrap samples, each split weighing a few random features, and lets them vote.",
+      "impact": "A fast, nearly tuning-free default for tabular data, and one of the 25 most-cited papers published since 2000.",
+      "significance_score": 77,
+      "tier": "Major",
+      "confidence": "Established",
+      "rating_novelty": 3,
+      "rating_influence": 5,
+      "rating_reach": 4,
+      "rating_access": 4,
+      "rating_institutions": 3,
+      "primary_source_url": "https://doi.org/10.1023/A:1010933404324",
+      "source_count": 28,
+      "dossier_url": "https://epoch.founden.co/events/random-forests"
     },
     {
       "id": "neural-language-model",
@@ -748,7 +863,7 @@
       "date_precision": "year",
       "name": "NVIDIA CUDA",
       "title": "GPUs become programmable compute",
-      "organization": "NVIDIA · CUDA",
+      "organization": "NVIDIA",
       "category": "Launches",
       "summary": "NVIDIA posts a public beta of its CUDA C compiler and SDK, letting developers program GPUs directly in C.",
       "impact": "It made GPUs the practical substrate for deep learning, from AlexNet's 2012 win to the cuDNN library.",
@@ -1037,7 +1152,7 @@
       "rating_access": 2,
       "rating_institutions": 4,
       "primary_source_url": "https://openai.com/index/introducing-openai/",
-      "source_count": 13,
+      "source_count": 12,
       "dossier_url": "https://epoch.founden.co/events/openai-is-founded"
     },
     {
@@ -1818,7 +1933,7 @@
       "rating_reach": 4,
       "rating_access": 2,
       "rating_institutions": 3,
-      "primary_source_url": "https://deepmind.google/blog/alphafold-3-predicts-the-structure-and-interactions-of-all-of-lifes-molecules/",
+      "primary_source_url": "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/",
       "source_count": 15,
       "dossier_url": "https://epoch.founden.co/events/alphafold-3-expands-the-picture"
     },
@@ -1875,7 +1990,7 @@
       "date_precision": "day",
       "name": "Llama 3.1",
       "title": "A frontier-scale downloadable model",
-      "organization": "Meta · Llama 3.1",
+      "organization": "Meta",
       "category": "Open source",
       "summary": "Meta releases downloadable Llama 3.1 weights, led by a dense 405B model with a 128,000-token context window.",
       "impact": "Near-frontier quality became something a team could host itself, resetting the open-weight bar.",
@@ -2197,7 +2312,7 @@
       "date_precision": "day",
       "name": "gpt-oss",
       "title": "OpenAI returns to open weights",
-      "organization": "OpenAI · gpt-oss",
+      "organization": "OpenAI",
       "category": "Open source",
       "summary": "OpenAI releases gpt-oss-120b and gpt-oss-20b under Apache 2.0, its first open-weight language models since GPT-2.",
       "impact": "A reasoning model near o4-mini level now runs on one 80GB GPU, downloadable and outside OpenAI's API.",
@@ -2258,29 +2373,6 @@
       "primary_source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
       "source_count": 16,
       "dossier_url": "https://epoch.founden.co/events/gemini-3"
-    },
-    {
-      "id": "claude-opus-4-6",
-      "date": "2026-02-05",
-      "year": 2026,
-      "date_precision": "day",
-      "name": "Claude Opus 4.6",
-      "title": "Claude Opus 4.6",
-      "organization": "Anthropic",
-      "category": "Models",
-      "summary": "Anthropic releases Claude Opus 4.6 with a 1-million-token context beta, adaptive thinking and agent teams.",
-      "impact": "Vendor-measured gains in long agentic work arrive at Opus 4.5's $5 and $25 per million token price.",
-      "significance_score": 47,
-      "tier": "Notable",
-      "confidence": "Provisional",
-      "rating_novelty": 2,
-      "rating_influence": 2,
-      "rating_reach": 3,
-      "rating_access": 3,
-      "rating_institutions": 2,
-      "primary_source_url": "https://www.anthropic.com/news/claude-opus-4-6",
-      "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/claude-opus-4-6"
     },
     {
       "id": "pentagon-anthropic-supply-chain-risk",
@@ -2352,29 +2444,6 @@
       "dossier_url": "https://epoch.founden.co/events/unit-distance-conjecture-disproved"
     },
     {
-      "id": "claude-sonnet-5",
-      "date": "2026-06-30",
-      "year": 2026,
-      "date_precision": "day",
-      "name": "Claude Sonnet 5",
-      "title": "Claude Sonnet 5",
-      "organization": "Anthropic",
-      "category": "Models",
-      "summary": "Anthropic ships Claude Sonnet 5, claimed near Opus 4.8 quality, at $2 and $10 per million tokens.",
-      "impact": "Agent loops get cheaper to run at volume; the planned rise to $3 and $15 is dropped in August.",
-      "significance_score": 47,
-      "tier": "Notable",
-      "confidence": "Provisional",
-      "rating_novelty": 2,
-      "rating_influence": 2,
-      "rating_reach": 3,
-      "rating_access": 3,
-      "rating_institutions": 2,
-      "primary_source_url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/claude-sonnet-5"
-    },
-    {
       "id": "hugging-face-breach",
       "date": "2026-07-21",
       "year": 2026,
@@ -2440,7 +2509,7 @@
       "rating_access": 2,
       "rating_institutions": 2,
       "primary_source_url": "https://openai.com/index/gpt-6-astra/",
-      "source_count": 14,
+      "source_count": 16,
       "dossier_url": "https://epoch.founden.co/events/gpt-6-astra"
     },
     {
@@ -2486,7 +2555,7 @@
       "rating_access": 3,
       "rating_institutions": 2,
       "primary_source_url": "https://github.com/openai/math",
-      "source_count": 23,
+      "source_count": 25,
       "dossier_url": "https://epoch.founden.co/events/quasi-riemann-hypothesis"
     }
   ]
