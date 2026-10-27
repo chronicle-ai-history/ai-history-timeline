@@ -1,11 +1,11 @@
 # AI History Timeline
 
-106 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
+109 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
 
 Curated by [Chronicle](https://epoch.founden.co/?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026), an interactive, sourced timeline of AI history. Every row links to a full dossier with the evidence behind it.
 
 - **Current version and downloads:** [epoch.founden.co/data](https://epoch.founden.co/data?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) (CSV and JSON, always the live archive)
-- **This snapshot:** 2026-10-24, 106 events, 1943 to 2026
+- **This snapshot:** 2026-10-27, 109 events, 1943 to 2026
 - **License:** CC BY 4.0 for the table (scope below)
 
 ## Fields
@@ -131,19 +131,21 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2024-07-23 | [Llama 3.1](https://epoch.founden.co/events/llama-3-1?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Meta | Open source | 74 |
 | 2024-08-01 | [EU AI Act](https://epoch.founden.co/events/the-eu-ai-act-enters-into-force?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | European Union | Policy | 83 |
 | 2024-09-12 | [OpenAI o1](https://epoch.founden.co/events/thinking-before-answering?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 72 |
-| 2024-10-08 | [Hopfield and Hinton Nobel Prize](https://epoch.founden.co/events/nobel-physics-neural-networks?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Nobel Prize in Physics | Benchmarks | 60 |
-| 2024-10-09 | [AlphaFold Nobel Prize](https://epoch.founden.co/events/nobel-protein-structure?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Nobel Prize in Chemistry | Benchmarks | 60 |
+| 2024-10-08 | [Hopfield and Hinton Nobel Prize](https://epoch.founden.co/events/nobel-physics-neural-networks?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Nobel Prize in Physics | Culture | 60 |
+| 2024-10-09 | [AlphaFold Nobel Prize](https://epoch.founden.co/events/nobel-protein-structure?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Nobel Prize in Chemistry | Culture | 60 |
 | 2024-10-22 | [Claude computer use](https://epoch.founden.co/events/claude-uses-a-computer?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Launches | 61 |
 | 2024-11-25 | [Model Context Protocol](https://epoch.founden.co/events/a-common-language-for-tools?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Open source | 77 |
 | 2025-01-20 | [DeepSeek-R1](https://epoch.founden.co/events/the-deepseek-moment?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | DeepSeek | Open source | 85 |
 | 2025-02-24 | [Claude Code](https://epoch.founden.co/events/claude-code-enters-the-terminal?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Launches | 64 |
 | 2025-03-25 | [Gemini 2.5](https://epoch.founden.co/events/gemini-2-5?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Models | 64 |
 | 2025-04-29 | [Qwen3](https://epoch.founden.co/events/qwen3?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Qwen team · Alibaba | Open source | 70 |
+| 2025-05-14 | [AlphaEvolve](https://epoch.founden.co/events/alphaevolve?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Research | 63 |
 | 2025-05-22 | [Claude 4](https://epoch.founden.co/events/claude-4-gets-to-work?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 58 |
 | 2025-06-23 | [Bartz v. Anthropic](https://epoch.founden.co/events/bartz-v-anthropic?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | U.S. District Court, N.D. California | Policy | 64 |
 | 2025-07-21 | [AI gold at IMO 2025](https://epoch.founden.co/events/imo-gold-medal?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind · OpenAI | Benchmarks | 59 |
 | 2025-08-05 | [gpt-oss](https://epoch.founden.co/events/gpt-oss?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Open source | 70 |
 | 2025-08-07 | [GPT-5](https://epoch.founden.co/events/gpt-5-arrives?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 70 |
+| 2025-09-29 | [California SB 53 (Transparency in Frontier AI Act)](https://epoch.founden.co/events/california-sb-53?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | State of California | Policy | 56 |
 | 2025-11-18 | [Gemini 3](https://epoch.founden.co/events/gemini-3?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Models | 70 |
 | 2026-02-27 | [Pentagon designates Anthropic a supply-chain risk](https://epoch.founden.co/events/pentagon-anthropic-supply-chain-risk?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | U.S. Department of Defense · Anthropic | Policy | 59 |
 | 2026-04-07 | [Claude Mythos Preview](https://epoch.founden.co/events/claude-mythos-preview?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 56 |
@@ -152,6 +154,7 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2026-08-02 | [AI Act enforcement](https://epoch.founden.co/events/ai-act-enforcement-expands?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | European Union | Policy | 61 |
 | 2026-09-03 | [GPT-6 Astra](https://epoch.founden.co/events/gpt-6-astra?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 45 |
 | 2026-09-08 | [OpenAI's Navier-Stokes blow-up claim](https://epoch.founden.co/events/navier-stokes-claim?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 62 |
+| 2026-09-29 | [Thomson Reuters v. ROSS Intelligence (Third Circuit)](https://epoch.founden.co/events/thomson-reuters-v-ross?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | U.S. Court of Appeals for the Third Circuit | Policy | 49 |
 | 2026-10-06 | [OpenAI's quasi-Riemann hypothesis proof](https://epoch.founden.co/events/quasi-riemann-hypothesis?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 64 |
 
 ## How events are chosen and scored
@@ -170,12 +173,12 @@ The table (the columns listed above) is licensed [Creative Commons Attribution 4
 
 ## Citation
 
-Chronicle. (2026). AI history dataset: 106 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
+Chronicle. (2026). AI history dataset: 109 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
 
 ```bibtex
 @misc{chronicle_ai_history_2026,
   author = {{Chronicle}},
-  title = {AI history dataset: 106 scored and sourced events},
+  title = {AI history dataset: 109 scored and sourced events},
   year = {2026},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.23395380},

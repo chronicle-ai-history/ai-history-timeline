@@ -1,6 +1,6 @@
 {
   "name": "Chronicle AI history dataset",
-  "description": "106 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
+  "description": "109 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
   "homepage": "https://epoch.founden.co/data",
   "license": {
     "id": "CC-BY-4.0",
@@ -118,7 +118,7 @@
       "description": "The event's full, cited dossier."
     }
   ],
-  "count": 106,
+  "count": 109,
   "events": [
     {
       "id": "mcculloch-pitts",
@@ -2060,7 +2060,7 @@
       "name": "Hopfield and Hinton Nobel Prize",
       "title": "Neural networks win a Nobel",
       "organization": "Nobel Prize in Physics",
-      "category": "Benchmarks",
+      "category": "Culture",
       "summary": "Hopfield and Hinton win the Physics Nobel for the 1982 Hopfield network and the 1985 Boltzmann machine.",
       "impact": "Physics' top prize declared 1980s neural-network research foundational to modern AI.",
       "significance_score": 60,
@@ -2083,7 +2083,7 @@
       "name": "AlphaFold Nobel Prize",
       "title": "AI meets the Nobel in Chemistry",
       "organization": "Nobel Prize in Chemistry",
-      "category": "Benchmarks",
+      "category": "Culture",
       "summary": "Baker wins half the chemistry Nobel for protein design; Hassabis and Jumper share half for AlphaFold.",
       "impact": "The Nobel record now counts a machine-learned predictor and computer-designed proteins as chemistry.",
       "significance_score": 60,
@@ -2237,6 +2237,29 @@
       "dossier_url": "https://epoch.founden.co/events/qwen3"
     },
     {
+      "id": "alphaevolve",
+      "date": "2025-05-14",
+      "year": 2025,
+      "date_precision": "day",
+      "name": "AlphaEvolve",
+      "title": "Breeding algorithms with a language model",
+      "organization": "Google DeepMind",
+      "category": "Research",
+      "summary": "DeepMind's AlphaEvolve evolves code with Gemini and multiplies 4x4 complex matrices with 48 products, not 49.",
+      "impact": "Evolving code against an automatic score becomes a reusable discovery method, copied in open source within months.",
+      "significance_score": 63,
+      "tier": "Major",
+      "confidence": "Supported",
+      "rating_novelty": 3,
+      "rating_influence": 4,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 2,
+      "primary_source_url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "source_count": 26,
+      "dossier_url": "https://epoch.founden.co/events/alphaevolve"
+    },
+    {
       "id": "claude-4-gets-to-work",
       "date": "2025-05-22",
       "year": 2025,
@@ -2279,7 +2302,7 @@
       "rating_access": 3,
       "rating_institutions": 3,
       "primary_source_url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0.pdf",
-      "source_count": 16,
+      "source_count": 23,
       "dossier_url": "https://epoch.founden.co/events/bartz-v-anthropic"
     },
     {
@@ -2352,6 +2375,29 @@
       "dossier_url": "https://epoch.founden.co/events/gpt-5-arrives"
     },
     {
+      "id": "california-sb-53",
+      "date": "2025-09-29",
+      "year": 2025,
+      "date_precision": "day",
+      "name": "California SB 53 (Transparency in Frontier AI Act)",
+      "title": "Disclosure in place of a kill switch",
+      "organization": "State of California",
+      "category": "Policy",
+      "summary": "Newsom signs SB 53, making the largest frontier AI developers publish safety frameworks and report incidents.",
+      "impact": "New York rebuilt its RAISE Act on SB 53 in 2026, while the White House urged Congress to preempt such laws.",
+      "significance_score": 56,
+      "tier": "Notable",
+      "confidence": "Provisional",
+      "rating_novelty": 2,
+      "rating_influence": 3,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 4,
+      "primary_source_url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+      "source_count": 27,
+      "dossier_url": "https://epoch.founden.co/events/california-sb-53"
+    },
+    {
       "id": "gemini-3",
       "date": "2025-11-18",
       "year": 2025,
@@ -2383,8 +2429,8 @@
       "title": "Red lines labeled a supply-chain risk",
       "organization": "U.S. Department of Defense · Anthropic",
       "category": "Policy",
-      "summary": "Hegseth moves to designate Anthropic a supply-chain risk after it keeps two limits on military use of Claude.",
-      "impact": "One court voids a designation as retaliation; the D.C. Circuit upholds another, 2 to 1, under a broader statute.",
+      "summary": "Hegseth moves to label Anthropic a supply-chain risk over two limits on Claude's military use.",
+      "impact": "One court voids it as retaliation; the D.C. Circuit upholds a second, 2 to 1.",
       "significance_score": 59,
       "tier": "Notable",
       "confidence": "Provisional",
@@ -2394,7 +2440,7 @@
       "rating_access": 3,
       "rating_institutions": 3,
       "primary_source_url": "https://media.cadc.uscourts.gov/opinions/docs/2026/09/26-1049-2194984.pdf",
-      "source_count": 19,
+      "source_count": 24,
       "dossier_url": "https://epoch.founden.co/events/pentagon-anthropic-supply-chain-risk"
     },
     {
@@ -2417,7 +2463,7 @@
       "rating_access": 2,
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/glasswing",
-      "source_count": 16,
+      "source_count": 21,
       "dossier_url": "https://epoch.founden.co/events/claude-mythos-preview"
     },
     {
@@ -2440,7 +2486,7 @@
       "rating_access": 3,
       "rating_institutions": 1,
       "primary_source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "source_count": 16,
+      "source_count": 20,
       "dossier_url": "https://epoch.founden.co/events/unit-distance-conjecture-disproved"
     },
     {
@@ -2463,7 +2509,7 @@
       "rating_access": 3,
       "rating_institutions": 2,
       "primary_source_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "source_count": 16,
+      "source_count": 29,
       "dossier_url": "https://epoch.founden.co/events/hugging-face-breach"
     },
     {
@@ -2486,7 +2532,7 @@
       "rating_access": 3,
       "rating_institutions": 5,
       "primary_source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-      "source_count": 13,
+      "source_count": 22,
       "dossier_url": "https://epoch.founden.co/events/ai-act-enforcement-expands"
     },
     {
@@ -2509,7 +2555,7 @@
       "rating_access": 2,
       "rating_institutions": 2,
       "primary_source_url": "https://openai.com/index/gpt-6-astra/",
-      "source_count": 16,
+      "source_count": 21,
       "dossier_url": "https://epoch.founden.co/events/gpt-6-astra"
     },
     {
@@ -2532,8 +2578,31 @@
       "rating_access": 3,
       "rating_institutions": 1,
       "primary_source_url": "https://openai.com/index/navier-stokes-solution/",
-      "source_count": 23,
+      "source_count": 27,
       "dossier_url": "https://epoch.founden.co/events/navier-stokes-claim"
+    },
+    {
+      "id": "thomson-reuters-v-ross",
+      "date": "2026-09-29",
+      "year": 2026,
+      "date_precision": "day",
+      "name": "Thomson Reuters v. ROSS Intelligence (Third Circuit)",
+      "title": "No fair use for training a Westlaw rival",
+      "organization": "U.S. Court of Appeals for the Third Circuit",
+      "category": "Policy",
+      "summary": "The Third Circuit holds that copying 2,243 Westlaw headnotes to train ROSS's legal search AI is not fair use.",
+      "impact": "The first appellate ruling on AI training recognizes a training-data market but sets generative models aside.",
+      "significance_score": 49,
+      "tier": "Notable",
+      "confidence": "Provisional",
+      "rating_novelty": 2,
+      "rating_influence": 2,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 3,
+      "primary_source_url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf",
+      "source_count": 17,
+      "dossier_url": "https://epoch.founden.co/events/thomson-reuters-v-ross"
     },
     {
       "id": "quasi-riemann-hypothesis",
@@ -2544,8 +2613,8 @@
       "title": "A claimed fence around zeta's zeros",
       "organization": "OpenAI",
       "category": "Research",
-      "summary": "OpenAI posts 722 AI-written papers, including claimed proofs of a quasi-Riemann hypothesis and of no Siegel zeros.",
-      "impact": "Within two weeks Banks, Kerr and Green write up the Siegel-zero proof anew; Sarnak withholds the word theorem.",
+      "summary": "OpenAI posts 722 AI-written papers claiming a quasi-Riemann hypothesis and no Siegel zeros.",
+      "impact": "Banks, Kerr and Green rework the Siegel proof in two weeks; Sarnak withholds the word theorem.",
       "significance_score": 64,
       "tier": "Major",
       "confidence": "Provisional",
@@ -2555,7 +2624,7 @@
       "rating_access": 3,
       "rating_institutions": 2,
       "primary_source_url": "https://github.com/openai/math",
-      "source_count": 25,
+      "source_count": 30,
       "dossier_url": "https://epoch.founden.co/events/quasi-riemann-hypothesis"
     }
   ]
