@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "AI history dataset: 109 scored and sourced events"
+title: "AI history dataset: 110 scored and sourced events"
 authors:
   - name: "Chronicle"
 url: "https://epoch.founden.co/data"
 license: CC-BY-4.0
-date-released: 2026-10-27
+date-released: 2026-10-30
 keywords:
   - artificial intelligence
   - history of AI

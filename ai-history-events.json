@@ -1,6 +1,6 @@
 {
   "name": "Chronicle AI history dataset",
-  "description": "109 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
+  "description": "110 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
   "homepage": "https://epoch.founden.co/data",
   "license": {
     "id": "CC-BY-4.0",
@@ -118,7 +118,7 @@
       "description": "The event's full, cited dossier."
     }
   ],
-  "count": 109,
+  "count": 110,
   "events": [
     {
       "id": "mcculloch-pitts",
@@ -2626,6 +2626,29 @@
       "primary_source_url": "https://github.com/openai/math",
       "source_count": 30,
       "dossier_url": "https://epoch.founden.co/events/quasi-riemann-hypothesis"
+    },
+    {
+      "id": "exponential-time-hypothesis-refuted",
+      "date": "2026-10-26",
+      "year": 2026,
+      "date_precision": "day",
+      "name": "Exponential Time Hypothesis refutation",
+      "title": "Two labs claim 3-SAT escapes exponential time",
+      "organization": "OpenAI and Anthropic",
+      "category": "Research",
+      "summary": "OpenAI and Anthropic models independently claim Lean-checked 2^o(n) algorithms for 3-SAT, refuting ETH.",
+      "impact": "ETH's own authors open a review they say is not certification; simplified proofs appear within days.",
+      "significance_score": 64,
+      "tier": "Major",
+      "confidence": "Provisional",
+      "rating_novelty": 4,
+      "rating_influence": 3,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 2,
+      "primary_source_url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "source_count": 32,
+      "dossier_url": "https://epoch.founden.co/events/exponential-time-hypothesis-refuted"
     }
   ]
 }

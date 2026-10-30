@@ -1,11 +1,11 @@
 # AI History Timeline
 
-109 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
+110 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
 
 Curated by [Chronicle](https://epoch.founden.co/?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026), an interactive, sourced timeline of AI history. Every row links to a full dossier with the evidence behind it.
 
 - **Current version and downloads:** [epoch.founden.co/data](https://epoch.founden.co/data?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) (CSV and JSON, always the live archive)
-- **This snapshot:** 2026-10-27, 109 events, 1943 to 2026
+- **This snapshot:** 2026-10-30, 110 events, 1943 to 2026
 - **License:** CC BY 4.0 for the table (scope below)
 
 ## Fields
@@ -156,6 +156,7 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2026-09-08 | [OpenAI's Navier-Stokes blow-up claim](https://epoch.founden.co/events/navier-stokes-claim?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 62 |
 | 2026-09-29 | [Thomson Reuters v. ROSS Intelligence (Third Circuit)](https://epoch.founden.co/events/thomson-reuters-v-ross?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | U.S. Court of Appeals for the Third Circuit | Policy | 49 |
 | 2026-10-06 | [OpenAI's quasi-Riemann hypothesis proof](https://epoch.founden.co/events/quasi-riemann-hypothesis?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Research | 64 |
+| 2026-10-26 | [Exponential Time Hypothesis refutation](https://epoch.founden.co/events/exponential-time-hypothesis-refuted?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI and Anthropic | Research | 64 |
 
 ## How events are chosen and scored
 
@@ -173,12 +174,12 @@ The table (the columns listed above) is licensed [Creative Commons Attribution 4
 
 ## Citation
 
-Chronicle. (2026). AI history dataset: 109 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
+Chronicle. (2026). AI history dataset: 110 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
 
 ```bibtex
 @misc{chronicle_ai_history_2026,
   author = {{Chronicle}},
-  title = {AI history dataset: 109 scored and sourced events},
+  title = {AI history dataset: 110 scored and sourced events},
   year = {2026},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.23395380},
