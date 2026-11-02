@@ -144,7 +144,7 @@
       "dossier_url": "https://epoch.founden.co/events/mcculloch-pitts"
     },
     {
-      "id": "the-question-that-started-it-all",
+      "id": "turing-test",
       "date": "1950",
       "year": 1950,
       "date_precision": "year",
@@ -164,7 +164,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://academic.oup.com/mind/article/LIX/236/433/986238",
       "source_count": 11,
-      "dossier_url": "https://epoch.founden.co/events/the-question-that-started-it-all"
+      "dossier_url": "https://epoch.founden.co/events/turing-test"
     },
     {
       "id": "logic-theorist",
@@ -190,7 +190,7 @@
       "dossier_url": "https://epoch.founden.co/events/logic-theorist"
     },
     {
-      "id": "artificial-intelligence-gets-a-name",
+      "id": "dartmouth-workshop",
       "date": "1956",
       "year": 1956,
       "date_precision": "year",
@@ -210,10 +210,10 @@
       "rating_institutions": 5,
       "primary_source_url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/artificial-intelligence-gets-a-name"
+      "dossier_url": "https://epoch.founden.co/events/dartmouth-workshop"
     },
     {
-      "id": "the-perceptron",
+      "id": "perceptron",
       "date": "1958",
       "year": 1958,
       "date_precision": "year",
@@ -233,7 +233,7 @@
       "rating_institutions": 2,
       "primary_source_url": "https://doi.org/10.1037/h0042519",
       "source_count": 11,
-      "dossier_url": "https://epoch.founden.co/events/the-perceptron"
+      "dossier_url": "https://epoch.founden.co/events/perceptron"
     },
     {
       "id": "lisp",
@@ -328,7 +328,7 @@
       "dossier_url": "https://epoch.founden.co/events/dendral"
     },
     {
-      "id": "a-conversation-with-eliza",
+      "id": "eliza",
       "date": "1966",
       "year": 1966,
       "date_precision": "year",
@@ -348,10 +348,10 @@
       "rating_institutions": 2,
       "primary_source_url": "https://doi.org/10.1145/365153.365168",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/a-conversation-with-eliza"
+      "dossier_url": "https://epoch.founden.co/events/eliza"
     },
     {
-      "id": "shakey-enters-the-world",
+      "id": "shakey-the-robot",
       "date": "1966",
       "year": 1966,
       "date_precision": "year",
@@ -371,7 +371,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.sri.com/hoi/shakey-the-robot/",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/shakey-enters-the-world"
+      "dossier_url": "https://epoch.founden.co/events/shakey-the-robot"
     },
     {
       "id": "perceptrons-book",
@@ -420,7 +420,7 @@
       "dossier_url": "https://epoch.founden.co/events/shrdlu"
     },
     {
-      "id": "the-first-ai-winter",
+      "id": "first-ai-winter",
       "date": "1973",
       "year": 1973,
       "date_precision": "year",
@@ -440,7 +440,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm",
       "source_count": 10,
-      "dossier_url": "https://epoch.founden.co/events/the-first-ai-winter"
+      "dossier_url": "https://epoch.founden.co/events/first-ai-winter"
     },
     {
       "id": "mycin",
@@ -558,7 +558,7 @@
       "dossier_url": "https://epoch.founden.co/events/fifth-generation-computer-systems"
     },
     {
-      "id": "learning-by-backpropagation",
+      "id": "backpropagation",
       "date": "1986",
       "year": 1986,
       "date_precision": "year",
@@ -578,7 +578,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.nature.com/articles/323533a0",
       "source_count": 15,
-      "dossier_url": "https://epoch.founden.co/events/learning-by-backpropagation"
+      "dossier_url": "https://epoch.founden.co/events/backpropagation"
     },
     {
       "id": "second-ai-winter",
@@ -696,7 +696,7 @@
       "dossier_url": "https://epoch.founden.co/events/td-gammon"
     },
     {
-      "id": "support-vector-networks",
+      "id": "support-vector-machines",
       "date": "1995",
       "year": 1995,
       "date_precision": "year",
@@ -716,7 +716,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://doi.org/10.1007/BF00994018",
       "source_count": 22,
-      "dossier_url": "https://epoch.founden.co/events/support-vector-networks"
+      "dossier_url": "https://epoch.founden.co/events/support-vector-machines"
     },
     {
       "id": "deep-blue-beats-kasparov",
@@ -834,7 +834,7 @@
       "dossier_url": "https://epoch.founden.co/events/darpa-grand-challenge"
     },
     {
-      "id": "the-deep-learning-revival",
+      "id": "deep-belief-networks",
       "date": "2006",
       "year": 2006,
       "date_precision": "year",
@@ -854,7 +854,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/the-deep-learning-revival"
+      "dossier_url": "https://epoch.founden.co/events/deep-belief-networks"
     },
     {
       "id": "cuda",
@@ -880,7 +880,7 @@
       "dossier_url": "https://epoch.founden.co/events/cuda"
     },
     {
-      "id": "imagenet-changes-the-dataset",
+      "id": "imagenet",
       "date": "2009",
       "year": 2009,
       "date_precision": "year",
@@ -900,10 +900,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://www.image-net.org/about.php",
       "source_count": 15,
-      "dossier_url": "https://epoch.founden.co/events/imagenet-changes-the-dataset"
+      "dossier_url": "https://epoch.founden.co/events/imagenet"
     },
     {
-      "id": "watson-wins-jeopardy!",
+      "id": "watson-wins-jeopardy",
       "date": "2011-02-16",
       "year": 2011,
       "date_precision": "day",
@@ -926,7 +926,7 @@
       "dossier_url": "https://epoch.founden.co/events/watson-wins-jeopardy"
     },
     {
-      "id": "the-alexnet-moment",
+      "id": "alexnet",
       "date": "2012",
       "year": 2012,
       "date_precision": "year",
@@ -946,7 +946,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
       "source_count": 17,
-      "dossier_url": "https://epoch.founden.co/events/the-alexnet-moment"
+      "dossier_url": "https://epoch.founden.co/events/alexnet"
     },
     {
       "id": "word2vec",
@@ -1018,7 +1018,7 @@
       "dossier_url": "https://epoch.founden.co/events/variational-autoencoders"
     },
     {
-      "id": "machines-learn-to-imagine",
+      "id": "generative-adversarial-networks",
       "date": "2014-06-10",
       "year": 2014,
       "date_precision": "day",
@@ -1038,7 +1038,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://arxiv.org/abs/1406.2661",
       "source_count": 14,
-      "dossier_url": "https://epoch.founden.co/events/machines-learn-to-imagine"
+      "dossier_url": "https://epoch.founden.co/events/generative-adversarial-networks"
     },
     {
       "id": "attention-mechanism",
@@ -1156,7 +1156,7 @@
       "dossier_url": "https://epoch.founden.co/events/openai-is-founded"
     },
     {
-      "id": "move-37-a-new-kind-of-intuition",
+      "id": "alphago-vs-lee-sedol",
       "date": "2016-03-15",
       "year": 2016,
       "date_precision": "day",
@@ -1176,7 +1176,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://deepmind.google/research/alphago/",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/move-37-a-new-kind-of-intuition"
+      "dossier_url": "https://epoch.founden.co/events/alphago-vs-lee-sedol"
     },
     {
       "id": "google-neural-machine-translation",
@@ -1271,7 +1271,7 @@
       "dossier_url": "https://epoch.founden.co/events/alphazero"
     },
     {
-      "id": "the-first-gpt",
+      "id": "gpt-1",
       "date": "2018-06-11",
       "year": 2018,
       "date_precision": "day",
@@ -1291,10 +1291,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://openai.com/index/language-unsupervised/",
       "source_count": 15,
-      "dossier_url": "https://epoch.founden.co/events/the-first-gpt"
+      "dossier_url": "https://epoch.founden.co/events/gpt-1"
     },
     {
-      "id": "bert-reads-both-ways",
+      "id": "bert",
       "date": "2018-10-11",
       "year": 2018,
       "date_precision": "day",
@@ -1314,10 +1314,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://arxiv.org/abs/1810.04805",
       "source_count": 22,
-      "dossier_url": "https://epoch.founden.co/events/bert-reads-both-ways"
+      "dossier_url": "https://epoch.founden.co/events/bert"
     },
     {
-      "id": "gpt-2-and-the-release-debate",
+      "id": "gpt-2",
       "date": "2019-02-14",
       "year": 2019,
       "date_precision": "day",
@@ -1337,7 +1337,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://openai.com/index/better-language-models/",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/gpt-2-and-the-release-debate"
+      "dossier_url": "https://epoch.founden.co/events/gpt-2"
     },
     {
       "id": "t5",
@@ -1386,7 +1386,7 @@
       "dossier_url": "https://epoch.founden.co/events/scaling-laws"
     },
     {
-      "id": "gpt-3-scales-up",
+      "id": "gpt-3",
       "date": "2020-05-28",
       "year": 2020,
       "date_precision": "day",
@@ -1406,7 +1406,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://arxiv.org/abs/2005.14165",
       "source_count": 15,
-      "dossier_url": "https://epoch.founden.co/events/gpt-3-scales-up"
+      "dossier_url": "https://epoch.founden.co/events/gpt-3"
     },
     {
       "id": "ddpm",
@@ -1478,7 +1478,7 @@
       "dossier_url": "https://epoch.founden.co/events/vision-transformer"
     },
     {
-      "id": "a-50-year-biology-problem",
+      "id": "alphafold-2",
       "date": "2020-11-30",
       "year": 2020,
       "date_precision": "day",
@@ -1498,10 +1498,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/a-50-year-biology-problem"
+      "dossier_url": "https://epoch.founden.co/events/alphafold-2"
     },
     {
-      "id": "dall·e:-language-becomes-image",
+      "id": "dall-e",
       "date": "2021-01-05",
       "year": 2021,
       "date_precision": "day",
@@ -1521,10 +1521,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://openai.com/index/dall-e/",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/dall-e-language-becomes-image"
+      "dossier_url": "https://epoch.founden.co/events/dall-e"
     },
     {
-      "id": "your-ai-pair-programmer",
+      "id": "github-copilot",
       "date": "2021-06-29",
       "year": 2021,
       "date_precision": "day",
@@ -1544,7 +1544,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/",
       "source_count": 9,
-      "dossier_url": "https://epoch.founden.co/events/your-ai-pair-programmer"
+      "dossier_url": "https://epoch.founden.co/events/github-copilot"
     },
     {
       "id": "latent-diffusion",
@@ -1616,7 +1616,7 @@
       "dossier_url": "https://epoch.founden.co/events/chinchilla"
     },
     {
-      "id": "dall·e-2",
+      "id": "dall-e-2",
       "date": "2022-04-06",
       "year": 2022,
       "date_precision": "day",
@@ -1639,7 +1639,7 @@
       "dossier_url": "https://epoch.founden.co/events/dall-e-2"
     },
     {
-      "id": "stable-diffusion-opens-up",
+      "id": "stable-diffusion",
       "date": "2022-08-22",
       "year": 2022,
       "date_precision": "day",
@@ -1659,10 +1659,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://stability.ai/news/stable-diffusion-public-release",
       "source_count": 14,
-      "dossier_url": "https://epoch.founden.co/events/stable-diffusion-opens-up"
+      "dossier_url": "https://epoch.founden.co/events/stable-diffusion"
     },
     {
-      "id": "hello-chatgpt",
+      "id": "chatgpt",
       "date": "2022-11-30",
       "year": 2022,
       "date_precision": "day",
@@ -1682,10 +1682,10 @@
       "rating_institutions": 5,
       "primary_source_url": "https://openai.com/index/chatgpt/",
       "source_count": 14,
-      "dossier_url": "https://epoch.founden.co/events/hello-chatgpt"
+      "dossier_url": "https://epoch.founden.co/events/chatgpt"
     },
     {
-      "id": "llama-enters-the-picture",
+      "id": "llama",
       "date": "2023-02-24",
       "year": 2023,
       "date_precision": "day",
@@ -1705,10 +1705,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
       "source_count": 14,
-      "dossier_url": "https://epoch.founden.co/events/llama-enters-the-picture"
+      "dossier_url": "https://epoch.founden.co/events/llama"
     },
     {
-      "id": "gpt-4-raises-the-bar",
+      "id": "gpt-4",
       "date": "2023-03-14",
       "year": 2023,
       "date_precision": "day",
@@ -1728,10 +1728,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://openai.com/index/gpt-4/",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/gpt-4-raises-the-bar"
+      "dossier_url": "https://epoch.founden.co/events/gpt-4"
     },
     {
-      "id": "meet-claude",
+      "id": "claude",
       "date": "2023-03-14",
       "year": 2023,
       "date_precision": "day",
@@ -1751,7 +1751,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/news/introducing-claude",
       "source_count": 11,
-      "dossier_url": "https://epoch.founden.co/events/meet-claude"
+      "dossier_url": "https://epoch.founden.co/events/claude"
     },
     {
       "id": "segment-anything",
@@ -1777,7 +1777,7 @@
       "dossier_url": "https://epoch.founden.co/events/segment-anything"
     },
     {
-      "id": "llama-2-opens-commercial-access",
+      "id": "llama-2",
       "date": "2023-07-18",
       "year": 2023,
       "date_precision": "day",
@@ -1797,7 +1797,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://ai.meta.com/blog/llama-2/",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/llama-2-opens-commercial-access"
+      "dossier_url": "https://epoch.founden.co/events/llama-2"
     },
     {
       "id": "mistral-7b",
@@ -1823,7 +1823,7 @@
       "dossier_url": "https://epoch.founden.co/events/mistral-7b"
     },
     {
-      "id": "the-bletchley-declaration",
+      "id": "bletchley-declaration",
       "date": "2023-11-01",
       "year": 2023,
       "date_precision": "day",
@@ -1843,10 +1843,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/the-bletchley-declaration"
+      "dossier_url": "https://epoch.founden.co/events/bletchley-declaration"
     },
     {
-      "id": "the-gemini-era-begins",
+      "id": "gemini",
       "date": "2023-12-06",
       "year": 2023,
       "date_precision": "day",
@@ -1866,10 +1866,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://blog.google/technology/ai/google-gemini-ai/",
       "source_count": 14,
-      "dossier_url": "https://epoch.founden.co/events/the-gemini-era-begins"
+      "dossier_url": "https://epoch.founden.co/events/gemini"
     },
     {
-      "id": "sora-imagines-in-motion",
+      "id": "sora",
       "date": "2024-02-15",
       "year": 2024,
       "date_precision": "day",
@@ -1889,10 +1889,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://openai.com/index/sora/",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/sora-imagines-in-motion"
+      "dossier_url": "https://epoch.founden.co/events/sora"
     },
     {
-      "id": "claude-3-arrives",
+      "id": "claude-3",
       "date": "2024-03-04",
       "year": 2024,
       "date_precision": "day",
@@ -1912,10 +1912,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/news/claude-3-family",
       "source_count": 14,
-      "dossier_url": "https://epoch.founden.co/events/claude-3-arrives"
+      "dossier_url": "https://epoch.founden.co/events/claude-3"
     },
     {
-      "id": "alphafold-3-expands-the-picture",
+      "id": "alphafold-3",
       "date": "2024-05-08",
       "year": 2024,
       "date_precision": "day",
@@ -1935,10 +1935,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/",
       "source_count": 15,
-      "dossier_url": "https://epoch.founden.co/events/alphafold-3-expands-the-picture"
+      "dossier_url": "https://epoch.founden.co/events/alphafold-3"
     },
     {
-      "id": "gpt-4o:-a-more-natural-interface",
+      "id": "gpt-4o",
       "date": "2024-05-13",
       "year": 2024,
       "date_precision": "day",
@@ -1958,10 +1958,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://openai.com/index/hello-gpt-4o/",
       "source_count": 19,
-      "dossier_url": "https://epoch.founden.co/events/gpt-4o-a-more-natural-interface"
+      "dossier_url": "https://epoch.founden.co/events/gpt-4o"
     },
     {
-      "id": "claude-35-sonnet",
+      "id": "claude-3-5-sonnet",
       "date": "2024-06-20",
       "year": 2024,
       "date_precision": "day",
@@ -1981,7 +1981,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/claude-35-sonnet"
+      "dossier_url": "https://epoch.founden.co/events/claude-3-5-sonnet"
     },
     {
       "id": "llama-3-1",
@@ -2007,7 +2007,7 @@
       "dossier_url": "https://epoch.founden.co/events/llama-3-1"
     },
     {
-      "id": "the-eu-ai-act-enters-into-force",
+      "id": "eu-ai-act",
       "date": "2024-08-01",
       "year": 2024,
       "date_precision": "day",
@@ -2027,10 +2027,10 @@
       "rating_institutions": 5,
       "primary_source_url": "https://digital-strategy.ec.europa.eu/en/news/european-artificial-intelligence-act-comes-force",
       "source_count": 11,
-      "dossier_url": "https://epoch.founden.co/events/the-eu-ai-act-enters-into-force"
+      "dossier_url": "https://epoch.founden.co/events/eu-ai-act"
     },
     {
-      "id": "thinking-before-answering",
+      "id": "openai-o1",
       "date": "2024-09-12",
       "year": 2024,
       "date_precision": "day",
@@ -2050,7 +2050,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://openai.com/index/introducing-openai-o1-preview/",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/thinking-before-answering"
+      "dossier_url": "https://epoch.founden.co/events/openai-o1"
     },
     {
       "id": "nobel-physics-neural-networks",
@@ -2099,7 +2099,7 @@
       "dossier_url": "https://epoch.founden.co/events/nobel-protein-structure"
     },
     {
-      "id": "claude-uses-a-computer",
+      "id": "claude-computer-use",
       "date": "2024-10-22",
       "year": 2024,
       "date_precision": "day",
@@ -2119,10 +2119,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
       "source_count": 12,
-      "dossier_url": "https://epoch.founden.co/events/claude-uses-a-computer"
+      "dossier_url": "https://epoch.founden.co/events/claude-computer-use"
     },
     {
-      "id": "a-common-language-for-tools",
+      "id": "model-context-protocol",
       "date": "2024-11-25",
       "year": 2024,
       "date_precision": "day",
@@ -2142,10 +2142,10 @@
       "rating_institutions": 4,
       "primary_source_url": "https://www.anthropic.com/news/model-context-protocol",
       "source_count": 13,
-      "dossier_url": "https://epoch.founden.co/events/a-common-language-for-tools"
+      "dossier_url": "https://epoch.founden.co/events/model-context-protocol"
     },
     {
-      "id": "the-deepseek-moment",
+      "id": "deepseek-r1",
       "date": "2025-01-20",
       "year": 2025,
       "date_precision": "day",
@@ -2165,10 +2165,10 @@
       "rating_institutions": 3,
       "primary_source_url": "https://deepseek.com/en/news/deepseek-r1/",
       "source_count": 11,
-      "dossier_url": "https://epoch.founden.co/events/the-deepseek-moment"
+      "dossier_url": "https://epoch.founden.co/events/deepseek-r1"
     },
     {
-      "id": "claude-code-enters-the-terminal",
+      "id": "claude-code",
       "date": "2025-02-24",
       "year": 2025,
       "date_precision": "day",
@@ -2188,7 +2188,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
       "source_count": 11,
-      "dossier_url": "https://epoch.founden.co/events/claude-code-enters-the-terminal"
+      "dossier_url": "https://epoch.founden.co/events/claude-code"
     },
     {
       "id": "gemini-2-5",
@@ -2260,7 +2260,7 @@
       "dossier_url": "https://epoch.founden.co/events/alphaevolve"
     },
     {
-      "id": "claude-4-gets-to-work",
+      "id": "claude-4",
       "date": "2025-05-22",
       "year": 2025,
       "date_precision": "day",
@@ -2280,7 +2280,7 @@
       "rating_institutions": 3,
       "primary_source_url": "https://www.anthropic.com/news/claude-4",
       "source_count": 10,
-      "dossier_url": "https://epoch.founden.co/events/claude-4-gets-to-work"
+      "dossier_url": "https://epoch.founden.co/events/claude-4"
     },
     {
       "id": "bartz-v-anthropic",
@@ -2352,7 +2352,7 @@
       "dossier_url": "https://epoch.founden.co/events/gpt-oss"
     },
     {
-      "id": "gpt-5-arrives",
+      "id": "gpt-5",
       "date": "2025-08-07",
       "year": 2025,
       "date_precision": "day",
@@ -2372,7 +2372,7 @@
       "rating_institutions": 4,
       "primary_source_url": "https://openai.com/index/introducing-gpt-5/",
       "source_count": 16,
-      "dossier_url": "https://epoch.founden.co/events/gpt-5-arrives"
+      "dossier_url": "https://epoch.founden.co/events/gpt-5"
     },
     {
       "id": "california-sb-53",
