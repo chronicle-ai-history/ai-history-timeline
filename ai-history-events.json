@@ -1,6 +1,6 @@
 {
   "name": "Chronicle AI history dataset",
-  "description": "110 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
+  "description": "114 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.",
   "homepage": "https://epoch.founden.co/data",
   "license": {
     "id": "CC-BY-4.0",
@@ -118,7 +118,7 @@
       "description": "The event's full, cited dossier."
     }
   ],
-  "count": 110,
+  "count": 114,
   "events": [
     {
       "id": "mcculloch-pitts",
@@ -926,6 +926,29 @@
       "dossier_url": "https://epoch.founden.co/events/watson-wins-jeopardy"
     },
     {
+      "id": "siri",
+      "date": "2011-10-04",
+      "year": 2011,
+      "date_precision": "day",
+      "name": "Siri",
+      "title": "A spoken assistant goes mass-market",
+      "organization": "Apple",
+      "category": "Launches",
+      "summary": "Apple unveils Siri as a beta on the iPhone 4S, turning spoken requests into actions across apps and web services.",
+      "impact": "It made talking to a phone ordinary and set the template Google Now, Cortana and Alexa followed within three years.",
+      "significance_score": 69,
+      "tier": "Major",
+      "confidence": "Established",
+      "rating_novelty": 3,
+      "rating_influence": 4,
+      "rating_reach": 4,
+      "rating_access": 3,
+      "rating_institutions": 3,
+      "primary_source_url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+      "source_count": 29,
+      "dossier_url": "https://epoch.founden.co/events/siri"
+    },
+    {
       "id": "alexnet",
       "date": "2012",
       "year": 2012,
@@ -1179,6 +1202,29 @@
       "dossier_url": "https://epoch.founden.co/events/alphago-vs-lee-sedol"
     },
     {
+      "id": "microsoft-tay",
+      "date": "2016-03-23",
+      "year": 2016,
+      "date_precision": "day",
+      "name": "Microsoft Tay",
+      "title": "A chatbot schooled by its trolls",
+      "organization": "Microsoft",
+      "category": "Culture",
+      "summary": "Microsoft's Tay chatbot learns from Twitter users, and coordinated trolls make it post hate within 16 hours.",
+      "impact": "Tay becomes a standard warning that a chatbot's users are an attack surface, cited in later safety research.",
+      "significance_score": 53,
+      "tier": "Notable",
+      "confidence": "Established",
+      "rating_novelty": 2,
+      "rating_influence": 3,
+      "rating_reach": 4,
+      "rating_access": 2,
+      "rating_institutions": 2,
+      "primary_source_url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/",
+      "source_count": 23,
+      "dossier_url": "https://epoch.founden.co/events/microsoft-tay"
+    },
+    {
       "id": "google-neural-machine-translation",
       "date": "2016-09-27",
       "year": 2016,
@@ -1200,6 +1246,29 @@
       "primary_source_url": "https://research.google/blog/a-neural-network-for-machine-translation-at-production-scale/",
       "source_count": 24,
       "dossier_url": "https://epoch.founden.co/events/google-neural-machine-translation"
+    },
+    {
+      "id": "libratus",
+      "date": "2017-01-30",
+      "year": 2017,
+      "date_precision": "day",
+      "name": "Libratus",
+      "title": "Poker's hidden cards fall to game theory",
+      "organization": "Carnegie Mellon University",
+      "category": "Benchmarks",
+      "summary": "Carnegie Mellon's Libratus beats four heads-up no-limit hold'em pros over 120,000 hands by 147 mbb/game.",
+      "impact": "Safe real-time subgame solving cracks hidden information and leads directly to six-player Pluribus in 2019.",
+      "significance_score": 64,
+      "tier": "Major",
+      "confidence": "Established",
+      "rating_novelty": 4,
+      "rating_influence": 3,
+      "rating_reach": 3,
+      "rating_access": 3,
+      "rating_institutions": 2,
+      "primary_source_url": "https://doi.org/10.1126/science.aao1733",
+      "source_count": 27,
+      "dossier_url": "https://epoch.founden.co/events/libratus"
     },
     {
       "id": "attention-is-all-you-need",
@@ -1844,6 +1913,29 @@
       "primary_source_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
       "source_count": 12,
       "dossier_url": "https://epoch.founden.co/events/bletchley-declaration"
+    },
+    {
+      "id": "openai-board-crisis",
+      "date": "2023-11-17",
+      "year": 2023,
+      "date_precision": "day",
+      "name": "OpenAI board crisis",
+      "title": "The board fired its CEO and lost",
+      "organization": "OpenAI",
+      "category": "Culture",
+      "summary": "OpenAI's nonprofit board fires Sam Altman as CEO, then rehires him after 738 of about 770 staff threaten to quit.",
+      "impact": "Three of the four directors who acted are gone within days, and OpenAI rebuilds its board and safety oversight.",
+      "significance_score": 55,
+      "tier": "Notable",
+      "confidence": "Supported",
+      "rating_novelty": 2,
+      "rating_influence": 3,
+      "rating_reach": 4,
+      "rating_access": 2,
+      "rating_institutions": 3,
+      "primary_source_url": "https://openai.com/index/openai-announces-leadership-transition/",
+      "source_count": 22,
+      "dossier_url": "https://epoch.founden.co/events/openai-board-crisis"
     },
     {
       "id": "gemini",
@@ -2601,7 +2693,7 @@
       "rating_access": 3,
       "rating_institutions": 3,
       "primary_source_url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf",
-      "source_count": 17,
+      "source_count": 18,
       "dossier_url": "https://epoch.founden.co/events/thomson-reuters-v-ross"
     },
     {

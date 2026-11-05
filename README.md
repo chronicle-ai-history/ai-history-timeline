@@ -1,11 +1,11 @@
 # AI History Timeline
 
-110 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
+114 milestones in the history of artificial intelligence from 1943 to 2026, each dated, categorized, scored for significance under a published rubric and linked to its primary source.
 
 Curated by [Chronicle](https://epoch.founden.co/?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026), an interactive, sourced timeline of AI history. Every row links to a full dossier with the evidence behind it.
 
 - **Current version and downloads:** [epoch.founden.co/data](https://epoch.founden.co/data?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) (CSV and JSON, always the live archive)
-- **This snapshot:** 2026-11-02, 110 events, 1943 to 2026
+- **This snapshot:** 2026-11-05, 114 events, 1943 to 2026
 - **License:** CC BY 4.0 for the table (scope below)
 
 ## Fields
@@ -82,6 +82,7 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2007 | [NVIDIA CUDA](https://epoch.founden.co/events/cuda?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | NVIDIA | Launches | 91 |
 | 2009 | [ImageNet](https://epoch.founden.co/events/imagenet?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Princeton & Stanford | Research | 92 |
 | 2011-02-16 | [IBM Watson](https://epoch.founden.co/events/watson-wins-jeopardy?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | IBM | Benchmarks | 58 |
+| 2011-10-04 | [Siri](https://epoch.founden.co/events/siri?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Apple | Launches | 69 |
 | 2012 | [AlexNet](https://epoch.founden.co/events/alexnet?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | University of Toronto | Research | 95 |
 | 2013-01-16 | [word2vec](https://epoch.founden.co/events/word2vec?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Mikolov and collaborators · Google | Research | 83 |
 | 2013-12-19 | [Deep Q-network](https://epoch.founden.co/events/deep-q-learning?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Mnih and collaborators · DeepMind | Research | 80 |
@@ -93,7 +94,9 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2015-12-10 | [ResNet](https://epoch.founden.co/events/resnet?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | He and collaborators · Microsoft | Research | 93 |
 | 2015-12-11 | [OpenAI](https://epoch.founden.co/events/openai-is-founded?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Culture | 62 |
 | 2016-03-15 | [AlphaGo vs Lee Sedol](https://epoch.founden.co/events/alphago-vs-lee-sedol?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Benchmarks | 83 |
+| 2016-03-23 | [Microsoft Tay](https://epoch.founden.co/events/microsoft-tay?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Microsoft | Culture | 53 |
 | 2016-09-27 | [Google Neural Machine Translation](https://epoch.founden.co/events/google-neural-machine-translation?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google | Launches | 69 |
+| 2017-01-30 | [Libratus](https://epoch.founden.co/events/libratus?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Carnegie Mellon University | Benchmarks | 64 |
 | 2017-06-12 | [Transformer](https://epoch.founden.co/events/attention-is-all-you-need?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google researchers | Research | 98 |
 | 2017-06-12 | [Deep reinforcement learning from human preferences (RLHF)](https://epoch.founden.co/events/rlhf?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Christiano and collaborators · OpenAI & DeepMind | Research | 83 |
 | 2017-12-05 | [AlphaZero](https://epoch.founden.co/events/alphazero?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Silver and collaborators · DeepMind | Research | 75 |
@@ -122,6 +125,7 @@ df.sort_values("significance_score", ascending=False).head(10)[["year", "name", 
 | 2023-07-18 | [Llama 2](https://epoch.founden.co/events/llama-2?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Meta | Open source | 74 |
 | 2023-09-27 | [Mistral 7B](https://epoch.founden.co/events/mistral-7b?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Mistral AI | Open source | 70 |
 | 2023-11-01 | [Bletchley Declaration](https://epoch.founden.co/events/bletchley-declaration?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | AI Safety Summit | Policy | 60 |
+| 2023-11-17 | [OpenAI board crisis](https://epoch.founden.co/events/openai-board-crisis?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Culture | 55 |
 | 2023-12-06 | [Google Gemini](https://epoch.founden.co/events/gemini?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Google DeepMind | Models | 75 |
 | 2024-02-15 | [OpenAI Sora](https://epoch.founden.co/events/sora?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | OpenAI | Models | 64 |
 | 2024-03-04 | [Claude 3](https://epoch.founden.co/events/claude-3?utm_source=github&utm_medium=dataset&utm_campaign=open_data_oct2026) | Anthropic | Models | 54 |
@@ -174,12 +178,12 @@ The table (the columns listed above) is licensed [Creative Commons Attribution 4
 
 ## Citation
 
-Chronicle. (2026). AI history dataset: 110 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
+Chronicle. (2026). AI history dataset: 114 scored and sourced events [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23395380
 
 ```bibtex
 @misc{chronicle_ai_history_2026,
   author = {{Chronicle}},
-  title = {AI history dataset: 110 scored and sourced events},
+  title = {AI history dataset: 114 scored and sourced events},
   year = {2026},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.23395380},
